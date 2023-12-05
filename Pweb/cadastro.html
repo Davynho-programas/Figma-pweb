@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="numsei">
+        <h1 id="bi">Bi</h1>
+        <h1 id="bet">Bet</h1>
+    </div>
+    <div id="form">
+
+        <form action="page.html">
+            <h2>Cadastro</h2>
+            <label for="usuario">Usuario</label> <br>
+            <input type="text" name="usuario" class="enviar" required> <br>
+
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" class="enviar" required> <br>
+
+            <label for="Nome">Nome completo</label> <br>
+            <input type="text" name="Nome" class="enviar" required> <br>
+            
+            <label for="numero">Numero de telefone</label> <br>
+            <input type="number" name="numero" class="enviar" placeholder="(99) 99999-9999" pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" required> <br>
+            
+            <label for="senha">Criar senha</label> <br>
+            <input type="password" name="senha" class="enviar" required > <br>
+            
+               <a href="page.html"><button type="submit" id="botao">Criar conta</button></a>
+        </form>
+    </div>
+
+   
+
+</body>
+
+</html>

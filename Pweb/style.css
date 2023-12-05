@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+body {
+    background-color: rgb(44, 42, 42);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#bi {
+    color: rgb(20, 97, 37);
+
+}
+
+#bet {
+    color: #ccaa11;
+    
+}
+
+
+#foto {
+    margin-top: 140px;
+}
+
+h2 {
+    margin-left: 60px;
+    color: white;
+    font-size: 40px;
+}
+
+
+.enviar {
+    width: 300px;
+    height: 28px;
+    border-radius: 15px;
+    border: none;
+}
+#botao{
+    margin-left: 80px;
+    margin-top: 15px;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #148A20;
+    color: white;
+}
+label{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+input{
+    margin-bottom: 10px;
+}
+#numsei{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    height: 130px;
+    flex-direction: row;
+}
+h1{
+    font-size: 100px;
+}
+#login{
+ margin-left:90px ;
+}
+#Lembre{
+    margin-left:0;
+    font-size: 15px;
+    padding-right: 40px;
+}
